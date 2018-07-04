@@ -105,7 +105,7 @@ class AdamW(Optimizer):
                   'beta_1': float(K.get_value(self.beta_1)),
                   'beta_2': float(K.get_value(self.beta_2)),
                   'decay': float(K.get_value(self.decay)),
-                  'weight_decay': float(K.get_value(self.weight_decay))
+                  'weight_decay': float(K.get_value(self.weight_decay)),
                   'batch_size': int(K.get_value(self.batch_size)),
                   'samples_per_epoch': int(K.get_value(self.samples_per_epoch)),
                   'epochs': int(K.get_value(self.epochs)),
