@@ -1,5 +1,3 @@
-from keras.optimizers import Optimizer
-
 """From built-in optimizer classes.
 """
 from __future__ import absolute_import
@@ -14,6 +12,8 @@ from keras import backend as K
 from keras.utils.generic_utils import serialize_keras_object
 from keras.utils.generic_utils import deserialize_keras_object
 from keras.legacy import interfaces
+
+from keras.optimizers import Optimizer
 
 class AdamW(Optimizer):
     """AdamW optimizer.
