@@ -35,6 +35,6 @@ Note that the size of a batch (batch_size), number of training samples per epoch
 
 # Source
 
-[**ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION**](https://arxiv.org/pdf/1412.6980v8.pdf), I. Loshchilov, F. Hutter
+[**ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION**](https://arxiv.org/pdf/1412.6980v8.pdf), D.P. Kingma, J. Lei Ba
 
-[**Fixing Weight Decay Regularization in Adam**](https://arxiv.org/pdf/1711.05101.pdf), D.P. Kingma, J. Lei Ba
+[**Fixing Weight Decay Regularization in Adam**](https://arxiv.org/pdf/1711.05101.pdf), I. Loshchilov, F. Hutter
